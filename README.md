@@ -15,42 +15,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global data integration, automated ingestion, and bulk file transfer market is estimated at approximately $14 billion to $17 billion (projected to reach over $35 billion by the 2030s at an ~12% CAGR). The market is moderately fragmented across specialized point solutions (embeddable CSV importers, media upload widgets, and niche ETL connectors), while remaining concentrated among hyperscalers and dominant enterprise data movement leaders for high-volume enterprise pipelines.
+
 ## SaaS/Hosted Platforms
 
-- **[Zoho DataPrep (Bulk Upload)](https://www.zoho.com/dataprep/)**  
-  AI-powered data preparation and ETL platform with connectors to 70+ sources (business apps, REST APIs, cloud storage, databases); includes a visual pipeline builder, 250+ transformations, Ask Zia natural-language prompts, and automated scheduling for bulk data movement and preparation [citation:1]. Zoho CRM also provides a Bulk Write API for uploading CSV files (ZIP format, 25,000 records per file, 25 MB limit) [citation:12].
-
-- **[Fivetran](https://www.fivetran.com/)**  
-  Automated data movement platform with 700+ connectors for SaaS apps, databases, ERPs, and file sources; delivers data into warehouses and lakes with schema-change handling, SOC 2/GDPR/HIPAA/ISO 27001 compliance, and hybrid deployment options .
-
-- **[Flatfile](https://flatfile.com/)**  
-  AI-powered data onboarding platform that embeds CSV/Excel import experiences directly into products; automates column mapping, data cleaning, validation, and export, cutting migration project timelines by over 70% [citation:3][citation:14].
-
-- **[OneSchema](https://www.oneschema.co/)**  
-  Embeddable CSV importer for SaaS products with AI-assisted column mapping, bulk error-fixing (autofix, find-and-replace), 50+ customization options, and performance validation of files up to 4 GB / 20 million rows in under one second; SOC 2, GDPR, CCPA, HIPAA compliant with self-hosted deployment options [citation:4][citation:15].
-
-- **[Dromo](https://dromo.io/)**  
-  Data import platform for CSV, Excel, and TSV with AI-powered column mapping (GPT), AI-assisted data cleanup in plain English, white-label UI, and zero-retention architecture (Private Mode keeps files in the browser); supports embedded, headless (API/SFTP), and self-hosted Kubernetes deployment [citation:5].
-
-- **[CSVbox](https://csvbox.io/)**  
-  Embeddable CSV/Excel/PDF importer widget with AI-powered column mapping, real-time row validation, server-side JavaScript transforms, Private Mode (browser-local processing), and delivery to 20+ destinations (webhook, Postgres, MySQL, Airtable, Google Sheets, Zapier, n8n); scales to 2 million rows per import [citation:6].
-
-- **[Cloudinary Upload Widget](https://cloudinary.com/documentation/upload_widget_reference)**  
-  Embeddable media upload widget with interactive cropping, multiple upload sources (local, Dropbox, Google Drive, image search), and extensive customization parameters for asset uploads [citation:7].
-
-- **[AWS S3 Transfer Acceleration](https://aws.amazon.com/s3/transfer-acceleration/)**  
-  Accelerated file transfer for S3 buckets using CloudFront edge locations to route uploads over optimized network paths; enabled per-bucket with a dedicated `s3-accelerate` endpoint, ideal for geographically distributed bulk uploads [citation:8].
-
-- **[Filestack](https://www.filestack.com/)**  
-  File upload and processing API with a Store endpoint for direct uploads to S3, Azure, Dropbox, Rackspace, or GCS; returns JSON metadata with a Filestack URL and supports multipart form data or public URL ingestion [citation:9].
-
-- **[Transloadit](https://transloadit.com/)**  
-  File upload and processing platform with resumable uploads (tus protocol), parallel processing pipelines (encoding, thumbnails, transcription), AI-assisted template generation, and global data residency (US/EU/APAC); powers the open-source Uppy uploader [citation:10].
+| Company / Product | Description | Scale (Revenue / Valuation) | Pricing (Starting Paid Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AWS S3 Transfer Acceleration](https://aws.amazon.com/s3/transfer-acceleration/)** | Accelerated file transfer for S3 buckets using CloudFront edge routing over optimized network paths. | ~$184B annualized run rate (Amazon: ~$2.8T market cap) | $0.04/GB acceleration premium (US/EU/JP) or $0.08/GB (other regions), plus standard S3 PUT rates | AWS Free Tier provides 12 months with 5 GB storage & 2,000 PUT requests, but 0 GB free for S3TA acceleration surcharges ("no speed, no pay" guarantee) |
+| **[Zoho DataPrep (Bulk Upload)](https://www.zoho.com/dataprep/)** | AI-powered data preparation and ETL platform with 70+ connectors, visual pipeline builder, and 250+ transforms. | ~$1.5B annual revenue (~$12B–$12.5B estimated valuation) | $40/month billed annually (Standard plan, includes up to 2 million rows/month) | Free plan includes up to 20,000 rows processed/month (downgrades automatically to Free after a 15-day free trial of Standard) |
+| **[Fivetran](https://www.fivetran.com/)** | Automated data movement platform with 700+ connectors delivering into warehouses and data lakes. | $5.6B valuation (~$325M–$350M standalone revenue; $600M+ ARR combined post-dbt merger) | Usage-based starting at ~$500/month (Standard plan with 15-minute syncs) | Free forever plan includes up to 500,000 Monthly Active Rows (MAR), 3,500 reverse-ETL MAR, and 5,000 transformations/month (plus 14-day free trial for new connectors) |
+| **[Cloudinary Upload Widget](https://cloudinary.com/documentation/upload_widget_reference)** | Embeddable media upload widget with client-side cropping, multi-source ingestion, and transformation. | $2.0B valuation (~$100M+ ARR) | $89/month billed annually or $99/month billed monthly (Plus plan, includes 225 credits/month) | Free plan includes 25 monthly credits (~25,000 transformations, 25 GB storage, or 25 GB bandwidth) for up to 3 users |
+| **[Flatfile](https://flatfile.com/)** | AI-powered data onboarding platform embedding CSV/Excel import workflows directly into web products. | $185M valuation (~$94M total funding raised, ~$11M estimated ARR) | $799/month (Professional tier with SAML SSO, white-labeling, and DPAs) | Free Starter tier includes up to 50 files and 10 million Processed Data Values (PDVs) per month (capped at 10,000 records per API extraction call) |
+| **[OneSchema](https://www.oneschema.co/)** | Embeddable spreadsheet importer with AI mapping, bulk error-fixing, and sub-second validation up to 4 GB. | $6.4M funding raised (~$3M estimated ARR) | $20/month (Starter self-serve plan with baseline monthly credits) | Free forever tier includes 4,000 free processing credits for validation and spreadsheet imports (additional usage at ~$0.012/credit) |
+| **[Filestack](https://www.filestack.com/)** | File upload, transformation, and storage routing API with direct uploads to S3, GCS, and Azure. | Acquired by Idera, Inc. ($1.95M prior VC funding, ~$2.1M ARR at acquisition) | $69/month (Start tier, includes 10,000 uploads and 50 GB bandwidth) | Free plan includes 500 uploads, 1 GB storage, 1 GB bandwidth, and 1,000 transformations per month (max file size 20 MB) |
+| **[Transloadit](https://transloadit.com/)** | File processing & upload platform supporting tus resumable protocol and encoding pipelines; powers Uppy. | ~$1.3M–$1.4M estimated ARR (Self-funded / Bootstrapped) | $29/month (Lite plan, includes 15 GB processing per month; extra usage at $2/GB) | Free Community tier includes 5 GB processing per month, 500 MB max file size, with watermarked images and trimmed audio/video outputs |
+| **[Dromo](https://dromo.io/)** | Embeddable and headless CSV/Excel importer with AI column mapping and client-side zero-retention mode. | Early-stage VC-backed (~$1M+ estimated ARR) | $399/month billed annually or $499/month billed monthly (Professional plan) | 14-day free trial with full developer access and up to 250 test imports per month |
+| **[CSVbox](https://csvbox.io/)** | Embeddable CSV/Excel importer widget with AI mapping, real-time validation, and 20+ destination sinks. | Bootstrapped / Unfunded (<$1M estimated ARR) | $19/month (Startup tier, includes up to 1,000 imports per month with 10,000 rows/import) | Free Sandbox tier includes 100 imports/month with up to 5 rows per import, 5 AI doc import pages, and 3 team members |
 
 ## Open-Source GitHub Projects
 
