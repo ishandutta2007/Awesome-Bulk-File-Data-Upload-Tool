@@ -1,6 +1,6 @@
 # Awesome-Bulk-File-Data-Upload-Tool
 
-# Top Bulk File & Data Upload Tool Ecosystem
+## Top Bulk File & Data Upload Tool Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Embeddable Importers, Automated Data Ingestion & Large-Scale File Transfer*  
