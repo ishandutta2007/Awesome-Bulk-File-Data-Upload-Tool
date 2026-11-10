@@ -62,60 +62,60 @@ The market dynamics exhibit **moderate fragmentation** across developer-facing p
 
 ## 💻 Open-Source GitHub Projects
 
-Sorted by GitHub star count in descending order:
+Sorted by GitHub Stars_Count in descending order:
 
-1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)  
+1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)  
    🌐 The "rsync for cloud storage" — high-performance CLI utility to sync, transfer, and bulk upload files to and from 70+ cloud storage providers (S3, Google Drive, Azure Blob, Dropbox, SFTP, WebDAV) with multi-threaded streaming, bandwidth limits, chunking, and resume capabilities.
 
-2. **[Uppy](https://github.com/transloadit/uppy)** [![GitHub stars](https://img.shields.io/github/stars/transloadit/uppy?style=social&color=white)](https://github.com/transloadit/uppy/stargazers)  
+2. **[Uppy](https://github.com/transloadit/uppy)** [![GitHub_Stars](https://img.shields.io/github/stars/transloadit/uppy?style=social&color=white)](https://github.com/transloadit/uppy/stargazers)  
    🐶 Modular, extensible JavaScript file uploader for web browsers. Seamlessly handles file picking from local disk, Google Drive, Dropbox, Box, Instagram, and webcams, with robust chunked resumable uploads via the open `tus` protocol and direct-to-S3 multipart upload support.
 
-3. **[jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)** [![GitHub stars](https://img.shields.io/github/stars/blueimp/jQuery-File-Upload?style=social&color=white)](https://github.com/blueimp/jQuery-File-Upload/stargazers)  
+3. **[jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload)** [![GitHub_Stars](https://img.shields.io/github/stars/blueimp/jQuery-File-Upload?style=social&color=white)](https://github.com/blueimp/jQuery-File-Upload/stargazers)  
    📁 Veteran, ubiquitous file upload widget featuring multiple file selection, drag-and-drop support, progress bars, validation, image/video previews, chunked file slicing, and cross-domain resumable uploads.
 
-4. **[Dropzone](https://github.com/enyo/dropzone)** [![GitHub stars](https://img.shields.io/github/stars/enyo/dropzone?style=social&color=white)](https://github.com/enyo/dropzone/stargazers)  
+4. **[Dropzone](https://github.com/enyo/dropzone)** [![GitHub_Stars](https://img.shields.io/github/stars/enyo/dropzone?style=social&color=white)](https://github.com/enyo/dropzone/stargazers)  
    🎯 Lightweight, dependency-free JavaScript library providing smooth drag-and-drop file uploads with instant image previews, customizable event hooks, and automated progress tracking.
 
-5. **[FilePond](https://github.com/pqina/filepond)** [![GitHub stars](https://img.shields.io/github/stars/pqina/filepond?style=social&color=white)](https://github.com/pqina/filepond/stargazers)  
+5. **[FilePond](https://github.com/pqina/filepond)** [![GitHub_Stars](https://img.shields.io/github/stars/pqina/filepond?style=social&color=white)](https://github.com/pqina/filepond/stargazers)  
    🌊 Silky-smooth, highly customizable JavaScript upload library with native plugins for image optimization, client-side EXIF correction, automatic file encoding, chunked file uploads, and adapters for React, Vue, Svelte, and Angular.
 
-6. **[Fine Uploader](https://github.com/FineUploader/fine-uploader)** [![GitHub stars](https://img.shields.io/github/stars/FineUploader/fine-uploader?style=social&color=white)](https://github.com/FineUploader/fine-uploader/stargazers)  
+6. **[Fine Uploader](https://github.com/FineUploader/fine-uploader)** [![GitHub_Stars](https://img.shields.io/github/stars/FineUploader/fine-uploader?style=social&color=white)](https://github.com/FineUploader/fine-uploader/stargazers)  
    📤 Comprehensive client-side file upload library supporting direct-to-cloud uploads (Amazon S3 and Azure Blob), chunking, pausing, auto-retrying failed chunks, and image previews.
 
-7. **[tusd](https://github.com/tus/tusd)** [![GitHub stars](https://img.shields.io/github/stars/tus/tusd?style=social&color=white)](https://github.com/tus/tusd/stargazers)  
+7. **[tusd](https://github.com/tus/tusd)** [![GitHub_Stars](https://img.shields.io/github/stars/tus/tusd?style=social&color=white)](https://github.com/tus/tusd/stargazers)  
    ⚡ The official reference server implementation in Go for `tus` — an open protocol for resumable file uploads over HTTP. Scales to millions of connections and seamlessly streams chunks into AWS S3, Google Cloud Storage, Azure Blob, or local disks.
 
-8. **[Chibisafe](https://github.com/chibisafe/chibisafe)** [![GitHub stars](https://img.shields.io/github/stars/chibisafe/chibisafe?style=social&color=white)](https://github.com/chibisafe/chibisafe/stargazers)  
+8. **[Chibisafe](https://github.com/chibisafe/chibisafe)** [![GitHub_Stars](https://img.shields.io/github/stars/chibisafe/chibisafe?style=social&color=white)](https://github.com/chibisafe/chibisafe/stargazers)  
    🚀 Blazing fast open-source TypeScript file vault and upload service featuring chunked uploads for large multi-gigabyte files, S3-compatible backend storage, public/private sharing links, albums, and ShareX integration.
 
-9. **[tus-js-client](https://github.com/tus/tus-js-client)** [![GitHub stars](https://img.shields.io/github/stars/tus/tus-js-client?style=social&color=white)](https://github.com/tus/tus-js-client/stargazers)  
+9. **[tus-js-client](https://github.com/tus/tus-js-client)** [![GitHub_Stars](https://img.shields.io/github/stars/tus/tus-js-client?style=social&color=white)](https://github.com/tus/tus-js-client/stargazers)  
    🔌 Pure JavaScript client implementation of the `tus` resumable upload protocol. Operates smoothly in browser environments, Node.js, React Native, and Web Workers.
 
-10. **[TableFlow CSV Import](https://github.com/tableflowhq/csv-import)** [![GitHub stars](https://img.shields.io/github/stars/tableflowhq/csv-import?style=social&color=white)](https://github.com/tableflowhq/csv-import/stargazers)  
+10. **[TableFlow CSV Import](https://github.com/tableflowhq/csv-import)** [![GitHub_Stars](https://img.shields.io/github/stars/tableflowhq/csv-import?style=social&color=white)](https://github.com/tableflowhq/csv-import/stargazers)  
     📊 Modern open-source CSV and spreadsheet import component for web applications. Features automated column mapping, custom data validation, row sanitization, and seamless React integration.
 
-11. **[csv-importer (Ruby)](https://github.com/pcreux/csv-importer)** [![GitHub stars](https://img.shields.io/github/stars/pcreux/csv-importer?style=social&color=white)](https://github.com/pcreux/csv-importer/stargazers)  
+11. **[csv-importer (Ruby)](https://github.com/pcreux/csv-importer)** [![GitHub_Stars](https://img.shields.io/github/stars/pcreux/csv-importer?style=social&color=white)](https://github.com/pcreux/csv-importer/stargazers)  
     💎 Declarative CSV data import framework for Ruby and Ruby on Rails with fuzzy header matching, row-level validation, and error reporting.
 
-12. **[DumbDrop](https://github.com/DumbWareio/DumbDrop)** [![GitHub stars](https://img.shields.io/github/stars/DumbWareio/DumbDrop?style=social&color=white)](https://github.com/DumbWareio/DumbDrop/stargazers)  
+12. **[DumbDrop](https://github.com/DumbWareio/DumbDrop)** [![GitHub_Stars](https://img.shields.io/github/stars/DumbWareio/DumbDrop?style=social&color=white)](https://github.com/DumbWareio/DumbDrop/stargazers)  
     📦 Minimalist self-hosted file dropper service with configurable storage directories, PIN protection, and reverse-proxy compatibility for lightweight file collection.
 
-13. **[react-csv-importer](https://github.com/beamworks/react-csv-importer)** [![GitHub stars](https://img.shields.io/github/stars/beamworks/react-csv-importer?style=social&color=white)](https://github.com/beamworks/react-csv-importer/stargazers)  
+13. **[react-csv-importer](https://github.com/beamworks/react-csv-importer)** [![GitHub_Stars](https://img.shields.io/github/stars/beamworks/react-csv-importer?style=social&color=white)](https://github.com/beamworks/react-csv-importer/stargazers)  
     ⚛️ Drop-in React UI component containing a complete CSV parser, user-driven interactive column mapper, and client-side data preview step.
 
-14. **[ImportCSV](https://github.com/importcsv/importcsv)** [![GitHub stars](https://img.shields.io/github/stars/importcsv/importcsv?style=social&color=white)](https://github.com/importcsv/importcsv/stargazers)  
+14. **[ImportCSV](https://github.com/importcsv/importcsv)** [![GitHub_Stars](https://img.shields.io/github/stars/importcsv/importcsv?style=social&color=white)](https://github.com/importcsv/importcsv/stargazers)  
     📑 React component for CSV imports with automatic column mapping; Local Mode runs entirely in the browser (virtual scrolling up to 100,000 rows) and Backend Mode adds AI-powered transformation.
 
-15. **[tuspyserver](https://github.com/edihasaj/tuspyserver)** [![GitHub stars](https://img.shields.io/github/stars/edihasaj/tuspyserver?style=social&color=white)](https://github.com/edihasaj/tuspyserver/stargazers)  
+15. **[tuspyserver](https://github.com/edihasaj/tuspyserver)** [![GitHub_Stars](https://img.shields.io/github/stars/edihasaj/tuspyserver?style=social&color=white)](https://github.com/edihasaj/tuspyserver/stargazers)  
     🐍 Lightweight FastAPI router implementing the `tus` resumable protocol with chunked storage, expiration lifecycles, and dependency injection hooks for custom auth and validation.
 
-16. **[budibase-csv-import](https://github.com/mjashanks/budibase-csv-import)** [![GitHub stars](https://img.shields.io/github/stars/mjashanks/budibase-csv-import?style=social&color=white)](https://github.com/mjashanks/budibase-csv-import/stargazers)  
+16. **[budibase-csv-import](https://github.com/mjashanks/budibase-csv-import)** [![GitHub_Stars](https://img.shields.io/github/stars/mjashanks/budibase-csv-import?style=social&color=white)](https://github.com/mjashanks/budibase-csv-import/stargazers)  
     🧩 Budibase UI component for end-user CSV ingestion directly into internal Budibase tables or SQL databases.
 
-17. **[DataPorter](https://github.com/SerylLns/data_porter)** [![GitHub stars](https://img.shields.io/github/stars/SerylLns/data_porter?style=social&color=white)](https://github.com/SerylLns/data_porter/stargazers)  
+17. **[DataPorter](https://github.com/SerylLns/data_porter)** [![GitHub_Stars](https://img.shields.io/github/stars/SerylLns/data_porter?style=social&color=white)](https://github.com/SerylLns/data_porter/stargazers)  
     🚂 Mountable Rails engine for CSV, XLSX, and JSON imports with interactive column mapping, dry-run validations, ActionCable progress streaming, and bad-row export.
 
-18. **[File Server (snoggin-io)](https://github.com/snoggin-io/file-server)** [![GitHub stars](https://img.shields.io/github/stars/snoggin-io/file-server?style=social&color=white)](https://github.com/snoggin-io/file-server/stargazers)  
+18. **[File Server (snoggin-io)](https://github.com/snoggin-io/file-server)** [![GitHub_Stars](https://img.shields.io/github/stars/snoggin-io/file-server?style=social&color=white)](https://github.com/snoggin-io/file-server/stargazers)  
     🧪 Simple Node.js file upload microserver with a clean web UI and REST API (`POST /upload`) for rapid testing and dev ingestion setups.
 
 ---
